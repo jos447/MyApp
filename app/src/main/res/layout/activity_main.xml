@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+        <EditText
+            android:id="@+id/inputText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input 1" />
+
+        <EditText
+            android:id="@+id/inputText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input 2" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Data" />
+
+        <!-- New password input field -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Data" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:visibility="gone" /> <!-- Initially hidden -->
+
+        <!-- New verify button -->
+        <Button
+            android:id="@+id/verifyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:visibility="gone" /> <!-- Initially hidden -->
+    </LinearLayout>
+
+
